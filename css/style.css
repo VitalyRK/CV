@@ -152,13 +152,13 @@ body.lock {
   }
 }
 .intro__photo {
-  max-width: 250px;
-  border-radius: 100%;
+  max-height: 350px;
+  border-radius: 1%;
   border: 3px solid #fff;
 }
 @media (max-width: 767.8px) {
   .intro__photo {
-    max-width: 200px;
+    max-height: 250px;
   }
 }
 .intro__title {
@@ -226,6 +226,7 @@ body.lock {
   display: flex;
   align-items: center;
   gap: 1vw;
+  user-select: text;
 }
 
 .contacts__icon {
